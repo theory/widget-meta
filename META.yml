@@ -5,6 +5,8 @@ author:
   - David Wheeler <david@kineticode.com>
 abstract: Metadata for user interface widgets
 license: perl
+build_requires:
+  Test::Simple: 0.17
 provides:
   Widget::Meta:
     file: lib/Widget/Meta.pm
