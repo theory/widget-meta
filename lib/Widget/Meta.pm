@@ -335,8 +335,7 @@ __END__
 
 =head1 Bugs
 
-Report all bugs via the CPAN Request Tracker at
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Widget-Meta>.
+Please send bug reports to <bug-widget-meta@rt.cpan.org>.
 
 =head1 Author
 
