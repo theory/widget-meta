@@ -1,6 +1,6 @@
 package Widget::Meta;
 
-# $Id: Meta.pm,v 1.1 2004/09/16 20:45:59 david Exp $
+# $Id: Meta.pm,v 1.2 2004/09/17 03:41:21 david Exp $
 
 use strict;
 
@@ -162,7 +162,7 @@ sub new {
         if ($ref eq 'ARRAY') {
             $self{options} = sub { $opt };
         } else {
-            $error_handler->("Options must be either an array or arrays or a "
+            $error_handler->("Options must be either an array of arrays or a "
                            . "code reference")
               unless $ref eq 'CODE';
         }
@@ -313,6 +313,15 @@ sub options {
 
 1;
 __END__
+
+=head1 Coverage
+
+ ---------------------------- ------ ------ ------ ------ ------ ------ ------
+ File                           stmt branch   cond    sub    pod   time  total
+ ---------------------------- ------ ------ ------ ------ ------ ------ ------
+ blib/lib/Widget/Meta.pm       100.0  100.0  100.0  100.0  100.0  100.0  100.0
+ Total                         100.0  100.0  100.0  100.0  100.0  100.0  100.0
+ ---------------------------- ------ ------ ------ ------ ------ ------ ------
 
 =head1 Bugs
 

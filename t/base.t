@@ -1,6 +1,6 @@
 #!perl -w
 
-# $Id: base.t,v 1.1 2004/09/16 20:45:59 david Exp $
+# $Id: base.t,v 1.2 2004/09/17 03:41:21 david Exp $
 
 use strict;
 use Test::More tests => 48;
@@ -9,7 +9,7 @@ BEGIN { use_ok('Widget::Meta') }
 
 # Try text kind.
 ok my $wm = Widget::Meta->new(
-    kind   => 'text',
+#    kind   => 'text', # default
     tip    => 'Fill me in',
     size   => 32,
     length => 32,
