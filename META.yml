@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Widget-Meta
-version: 0.02
+version: 0.03
 author:
   - David Wheeler <david@kineticode.com>
 abstract: Metadata for user interface widgets
@@ -10,5 +10,5 @@ build_requires:
 provides:
   Widget::Meta:
     file: lib/Widget/Meta.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.25_03
