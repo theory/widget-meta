@@ -11,4 +11,4 @@ provides:
   Widget::Meta:
     file: lib/Widget/Meta.pm
     version: 0.03
-generated_by: Module::Build version 0.25_03
+generated_by: Module::Build version 0.26

@@ -1,11 +1,20 @@
 package Widget::Meta;
 
-# $Id: Meta.pm,v 1.5 2004/09/18 19:58:55 david Exp $
+# $Id$
 
 use strict;
 $Widget::Meta::VERSION = '0.03';
 
 =head1 Name
+
+=begin comment
+
+Fake-out Module::Build. Delete if it ever changes to support =head1 headers
+other than all uppercase.
+
+=head1 NAME
+
+=end comment
 
 Widget::Meta - Metadata for user interface widgets
 
@@ -330,6 +339,15 @@ Report all bugs via the CPAN Request Tracker at
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Widget-Meta>.
 
 =head1 Author
+
+=begin comment
+
+Fake-out Module::Build. Delete if it ever changes to support =head1 headers
+other than all uppercase.
+
+=head1 AUTHOR
+
+=end comment
 
 David Wheeler <david@kineticode.com>
 
