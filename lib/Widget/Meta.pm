@@ -1,13 +1,13 @@
 package Widget::Meta;
 
-# $Id: Meta.pm,v 1.3 2004/09/17 04:06:44 david Exp $
+# $Id: Meta.pm,v 1.4 2004/09/17 04:22:29 david Exp $
 
 use strict;
-$Widget::Meta::VERSION = '0.01';
+$Widget::Meta::VERSION = '0.02';
 
 =head1 Name
 
-Widget::Meta - Metadata for display widgets
+Widget::Meta - Metadata for user interface widgets
 
 =head1 Synopsis
 

@@ -1,7 +1,14 @@
-Widget/Meta version 0.01
+Widget/Meta version 0.02
 ========================
 
-
+This class specifies simple objects that describe UI widgets. The idea is to
+associate Widget::Meta objects with the attributes of a class in order to
+automate the generation of UI widgets for instances of the class. At its core,
+this class a very simple module that stores value and returns them on
+demand. The assigning of values to its attributes and checking the validity of
+those attributes happens entirely in the "new()" constructor. Its attributes
+are read-only; the "options" attribute is actually a code reference, the
+return value of which is returned for every call to the "options()" accessor.
 
 INSTALLATION
 
@@ -25,7 +32,7 @@ This module requires no modules or libraries not already included with Perl.
 
 COPYRIGHT AND LICENCE
 
-Copyright (c) 2002-2003, David Wheeler. All Rights Reserved.
+Copyright (c) 2004 Kineticode, Inc. All Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under the
 same terms as Perl itself.

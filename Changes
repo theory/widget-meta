@@ -1,4 +1,8 @@
 Revision history for Perl extension Widget::Meta.
 
+0.02
+      - Added description to README.
+      - Added Test::Simple to build requirements.
+
 0.01  2004-09-17T04:02:27
       - Initial public release.
