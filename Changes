@@ -1,5 +1,8 @@
 Revision history for Perl extension Widget::Meta.
 
+0.03  
+      - Changed the "kind" attribute to "type".
+
 0.02  2004-09-17T04:19:30
       - Added description to README.
       - Added Test::Simple to build requirements.

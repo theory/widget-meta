@@ -1,9 +1,9 @@
 package Widget::Meta;
 
-# $Id: Meta.pm,v 1.4 2004/09/17 04:22:29 david Exp $
+# $Id: Meta.pm,v 1.5 2004/09/18 19:58:55 david Exp $
 
 use strict;
-$Widget::Meta::VERSION = '0.02';
+$Widget::Meta::VERSION = '0.03';
 
 =head1 Name
 
@@ -16,23 +16,23 @@ Widget::Meta - Metadata for user interface widgets
   my @wms;
   push @wms, Widget::Meta->new(
     name => 'foo',
-    kind => 'text',
+    type => 'text',
     tip  => 'Fill me in',
     size => 32,
   );
 
   push @wms, Widget::Meta->new(
     name => 'bar',
-    kind => 'select',
+    type => 'select',
     tip  => 'Pick a number from 1 to 3',
     options => [[1 => 'One'], [2 => 'Two'], [3 => 'Three']],
   );
 
   # And later, assuming functions for generating UI fields...
   for my $wm (@wms) {
-      if ($wm->kind eq 'text')
+      if ($wm->type eq 'text')
           output_text_field($wm);
-      } elsif ($wm->kind eq 'select') {
+      } elsif ($wm->type eq 'select') {
           output_select_list($wm);
       } else {
           die "Huh, wha?";
@@ -63,9 +63,9 @@ object can be set via the following parameters:
 
 =over
 
-=item kind
+=item type
 
-The kind of widget for which the Widget::Meta object provides meta data. This
+The type of widget for which the Widget::Meta object provides meta data. This
 can be any string, but typically is "text", "textarea", "checkbox", and the
 like. Defaults to "text".
 
@@ -136,8 +136,8 @@ sub new {
     # Get the parameters. Default value to undef.
     my %self = ( value => undef, @_);
 
-    # Set the default kind of widget.
-    $self{kind} ||= 'text';
+    # Set the default type of widget.
+    $self{type} ||= 'text';
 
     # Set empty string defaults.
     for my $p (qw(tip name)) {
@@ -179,15 +179,15 @@ sub new {
 
 =head2 Accessors
 
-=head3 kind
+=head3 type
 
-  my $kind = $wm->kind;
+  my $type = $wm->type;
 
-Returns the string defining the kind of widget to be created.
+Returns the string defining the type of widget to be created.
 
 =cut
 
-sub kind    { shift->{kind}    }
+sub type    { shift->{type}    }
 
 ##############################################################################
 
