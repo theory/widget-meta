@@ -1,0 +1,14 @@
+--- #YAML:1.0
+name: Widget-Meta
+version: 0.01
+license: perl
+distribution_type: module
+requires: {}
+recommends: {}
+build_requires: {}
+conflicts: {}
+provides:
+  Widget::Meta:
+    file: lib/Widget/Meta.pm
+    version: 0.01
+generated_by: Module::Build version 0.19_05
