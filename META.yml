@@ -1,10 +1,12 @@
 --- #YAML:1.0
 name: Widget-Meta
-version: ~
-author: ~
-abstract: ~
+version: 0.01
+author:
+  - David Wheeler <david@kineticode.com>
+abstract: Metadata for display widgets
 license: perl
 provides:
   Widget::Meta:
     file: lib/Widget/Meta.pm
-generated_by: Module::Build version 0.25_01
+    version: 0.01
+generated_by: Module::Build version 0.25_03

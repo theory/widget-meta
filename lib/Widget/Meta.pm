@@ -1,8 +1,9 @@
 package Widget::Meta;
 
-# $Id: Meta.pm,v 1.2 2004/09/17 03:41:21 david Exp $
+# $Id: Meta.pm,v 1.3 2004/09/17 04:06:44 david Exp $
 
 use strict;
+$Widget::Meta::VERSION = '0.01';
 
 =head1 Name
 
@@ -30,9 +31,9 @@ Widget::Meta - Metadata for display widgets
   # And later, assuming functions for generating UI fields...
   for my $wm (@wms) {
       if ($wm->kind eq 'text')
-          outpu_text_field($wm);
+          output_text_field($wm);
       } elsif ($wm->kind eq 'select') {
-          outpu_select_list($wm);
+          output_select_list($wm);
       } else {
           die "Huh, wha?";
       }
