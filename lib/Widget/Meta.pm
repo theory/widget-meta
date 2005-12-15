@@ -110,7 +110,7 @@ to be entered into a widge such as a text box. Must be an integer. Defaults to
 The number of rows to be used in a widget, such as a textarea widget. Must be
 an integer. Defaults to 0.
 
-=item rows
+=item cols
 
 The number of columns to be used in a widget, such as a textarea widget. Must
 be an integer. Defaults to 0.
