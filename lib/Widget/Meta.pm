@@ -3,7 +3,7 @@ package Widget::Meta;
 # $Id$
 
 use strict;
-$Widget::Meta::VERSION = '0.03';
+$Widget::Meta::VERSION = '0.04';
 
 =begin comment
 

@@ -1,5 +1,8 @@
 Revision history for Perl extension Widget::Meta.
 
+0.04
+    - Added the "configure_requires" and "recommends" parameters to Build.PL.
+
 0.03  2004-09-18T19:58:04
       - Changed the "kind" attribute to "type".
 
