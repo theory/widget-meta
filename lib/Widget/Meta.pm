@@ -335,9 +335,14 @@ __END__
  Total                         100.0  100.0  100.0  100.0  100.0  100.0  100.0
  ---------------------------- ------ ------ ------ ------ ------ ------ ------
 
-=head1 Bugs
+=head1 Support
 
-Please send bug reports to <bug-widget-meta@rt.cpan.org>.
+This module is stored in an open repository at the following address:
+
+L<https://svn.kineticode.com/Widget-Meta/trunk/>
+
+Patches against Widget::Meta are welcome. Please send bug reports to
+<bug-widget-meta@rt.cpan.org>.
 
 =head1 Author
 
