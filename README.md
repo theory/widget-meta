@@ -1,4 +1,4 @@
-Widget/Meta version 0.05
+Widget/Meta version 0.06
 ========================
 
 This class specifies simple objects that describe UI widgets. The idea is to

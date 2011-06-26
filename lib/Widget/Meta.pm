@@ -1,7 +1,7 @@
 package Widget::Meta;
 
 use strict;
-$Widget::Meta::VERSION = '0.05';
+$Widget::Meta::VERSION = '0.06';
 
 =head1 Name
 
