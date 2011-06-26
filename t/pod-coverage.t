@@ -1,4 +1,4 @@
-#!perl -w
+#!/usr/bin/perl -w
 
 # $Id: pod-coverage.t,v 1.1 2004/09/16 20:45:59 david Exp $
 
