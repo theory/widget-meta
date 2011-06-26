@@ -337,12 +337,13 @@ __END__
 
 =head1 Support
 
-This module is stored in an open repository at the following address:
+This module is stored in an open L<GitHub
+repository|http://github.com/theory/widget-meta/>. Feel free to fork and
+contribute!
 
-L<https://svn.kineticode.com/Widget-Meta/trunk/>
-
-Patches against Widget::Meta are welcome. Please send bug reports to
-<bug-widget-meta@rt.cpan.org>.
+Please file bug reports via L<GitHub
+Issues|http://github.com/theory/widget-meta/issues/> or by sending mail to
+L<bug-Widget-Meta@rt.cpan.org|mailto:bug-Widget-Meta@rt.cpan.org>.
 
 =head1 Author
 
