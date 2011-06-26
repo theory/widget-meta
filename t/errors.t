@@ -1,7 +1,5 @@
 #!/usr/bin/perl -w
 
-# $Id: errors.t,v 1.1 2004/09/17 03:41:21 david Exp $
-
 use strict;
 use Test::More tests => 25;
 use File::Spec;
