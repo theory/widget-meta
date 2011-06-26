@@ -3,17 +3,6 @@ package Widget::Meta;
 use strict;
 $Widget::Meta::VERSION = '0.05';
 
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 NAME
-
-Widget::Meta - Metadata for user interface widgets
-
-=end comment
-
 =head1 Name
 
 Widget::Meta - Metadata for user interface widgets
@@ -344,15 +333,6 @@ Issues|http://github.com/theory/widget-meta/issues/> or by sending mail to
 L<bug-Widget-Meta@rt.cpan.org|mailto:bug-Widget-Meta@rt.cpan.org>.
 
 =head1 Author
-
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 AUTHOR
-
-=end comment
 
 David Wheeler <david@kineticode.com>
 
