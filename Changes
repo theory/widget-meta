@@ -1,5 +1,7 @@
 Revision history for Perl extension Widget::Meta.
 
+0.07
+
 0.06  2011-07-16T23:47:26
       - Fixed test failures on Windows.
 
