@@ -3,7 +3,6 @@
 use strict;
 use Test::More tests => 25;
 use File::Spec;
-my $fn = File::Spec->catfile('t', 'errors.t');
 my $metafn = File::Spec->catfile(qw(Widget Meta.pm));
 
 BEGIN { use_ok('Widget::Meta') }
@@ -37,7 +36,7 @@ sub chk {
     # Check its message.
     like( $err, $qr, "Correct error" );
     # Make sure it refers to this file.
-    like( $err, qr/(?:at\s+\Q$fn\E|\Q$fn\E\s+at)\s+line/, 'Correct context' );
+    like( $err, qr/(?:at\s+\Q$0\E|\Q$0\E\s+at)\s+line/, 'Correct context' );
     # Make sure it doesn't refer to Widget::Meta files.
     unlike( $err, qr|\Q$metafn\E|, 'Not incorrect context')
 }

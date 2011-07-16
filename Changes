@@ -1,6 +1,7 @@
 Revision history for Perl extension Widget::Meta.
 
 0.06
+      - Fixed test failures on Windows.
 
 0.05  2011-06-26T06:37:56
       - Moved repostitory to [GitHub](https://github.com/theory/class-meta/).
